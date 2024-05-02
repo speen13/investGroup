@@ -1,0 +1,18 @@
+.button {
+    background-color: #21A038;
+    width: 222px;
+    height: 53px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 16px;
+    color: wheat;
+    align-content: center;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    text-align: center;
+}
+.button:hover {
+    background-color: dodgerblue;
+    color: white;
+}

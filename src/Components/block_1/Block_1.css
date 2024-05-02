@@ -1,0 +1,16 @@
+.block_1 {
+    width: 100%;
+    /*max-width: 1440px;*/
+    height: 830px;
+
+
+}
+
+@media(max-width: 550px) {
+    .block_1 {
+        width: 375px;
+        height: 906px;
+
+    }
+
+}

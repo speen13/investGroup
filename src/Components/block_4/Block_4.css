@@ -1,0 +1,145 @@
+.cont_calc {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    max-width: 1442px;
+    height: 519px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.invest {
+    margin-top: 60px;
+    width: 466px;
+    height: 350px;
+    background-color: #093922;
+    border-radius: 42px;
+    padding-left: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+}
+.invest div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    margin-top: -20px;
+    width: 378px;
+    height: 86px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+
+}
+
+.invest button {
+    width: 406px;
+    height: 53px;
+    background-color: #21A038;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-left: -17px;
+    margin-top: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.invest button:hover {
+    background-color: steelblue;
+    color: #FFFFFF;
+
+}
+
+.invest p {
+    /*color: white;*/
+    margin-left: 25%;
+}
+.math {
+    font-size: 48px;
+    color: #21A038;
+    font-weight: 600;
+    margin-top: -5px;
+
+}
+
+
+
+.calc {
+    width: 100%;
+    max-width: 660px;
+    margin-top: 60px;
+    height: 423px;
+
+    /*background-color: #D8F1A0;*/
+}
+
+.calc_invest {
+    width: 551px;
+/*background-color: transparent;*/
+    height: 106px;
+    accent-color: #21A038;
+    cursor: pointer;
+
+
+   /*background-color: #F6FBF7;*/
+
+
+}
+/*.calc_invest::-webkit-slider-runnable-track  {*/
+
+
+/*    width: 304px;*/
+/*    background: #F6FBF7;*/
+/*    height: 10px;*/
+/*    border-radius: 8px;*/
+/*    !*background: #21A038;*!*/
+/*    cursor: pointer;*/
+/*    !*color: #21A038;*!*/
+/*}*/
+/*.calc_invest::-webkit-slider-thumb {*/
+/*    -webkit-appearance: none;*/
+/*    appearance: none;*/
+/*    margin-top: -6px; !* Centers thumb on the track *!*/
+/*    background-color: green;*/
+/*    height: 20px;*/
+/*    width: 1.2rem;*/
+/*    border-radius: 50%;*/
+/*}*/
+.calc_invest:focus::-webkit-slider-thumb {
+    border: 1px solid #053a5f;
+    outline: 8px solid white;
+    outline-offset: 0.125rem;
+    border-radius: 50%;
+
+
+}
+
+.invest_1,.invest_2 {
+    width: 660px;
+    height: 176px;
+    background-color:#F6FBF7;
+    border-radius: 65px;
+    text-align: center;
+    align-content: center;
+}
+.invest_2 {
+    margin-top: 20px;
+}
+
+.invest_1 p{
+ float: left;
+    margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .cont_calc {
+        display: flex;
+        flex-direction: column;
+        margin-top: 780px;
+    }
+    .invest_1,.invest_2 {
+        width: 600px;
+    }
+}
