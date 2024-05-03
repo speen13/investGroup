@@ -116,6 +116,15 @@
 
 }
 
+.sum{
+  padding-left: 300px;
+
+}
+
+.invest_2 p {
+    margin-left: 500px;
+}
+
 .invest_1,.invest_2 {
     width: 660px;
     height: 176px;
@@ -132,6 +141,10 @@
  float: left;
     margin-left: 40px;
 }
+.number {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media (max-width: 768px) {
     .cont_calc {
@@ -141,8 +154,26 @@
     }
     .invest_1,.invest_2 {
         width: 400px;
+        margin-top: 40px;
+        margin-left: 10px;
     }
     .calc_invest {
         width: 300px;
+
+
     }
+    .invest_2 p {
+        margin-left: 270px;
+
+    }
+
+    .sum_1 {
+      position: relative;
+        bottom: -50px;
+    }
+
+    .invest {
+        margin-left: 20px;
+    }
+
 }

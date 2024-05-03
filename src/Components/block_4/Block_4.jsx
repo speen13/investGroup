@@ -28,12 +28,12 @@ const Block_4 = () => {
         {/*<RangeSlider />*/}
 
         <div className={'invest_1'}>
-          <p>Сумма інвестицій </p>
-          <p style={{marginLeft: 400}}>{invest}</p>
+          <p className={'sum_1'}>Сумма інвестицій </p>
+          <p className={'sum'}>{invest}</p>
 
           <input className={'calc_invest'} type={'range'} min={5000} max={50000} step={1} value={invest}
                  onChange={changeInvest}/>
-          <div style={{display:"flex", justifyContent:'space-around'}}>
+          <div className={'number'} >
             <span>5000</span>
             <span>20 000 </span>
             <span>35 000</span>
@@ -42,10 +42,10 @@ const Block_4 = () => {
         </div>
         <div className={'invest_2'}>
           <p style={{float: 'left', marginLeft: 40}}>Сумма прибутку</p>
-          <p style={{marginLeft: 500}}>{invest * 7.5}</p>
+          <p >{invest * 7.5}</p>
           <input className={'calc_invest'} type={'range'} min={5000} max={50000}  value={invest}
                  onChange={changeInvest}/>
-          <div style={{display: "flex", justifyContent: 'space-around'}}>
+          <div className={'number'} >
             <span>37 500</span>
             <span>150 00 </span>
             <span>255 00</span>
