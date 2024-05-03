@@ -83,7 +83,12 @@ background-color: #093922;
 
     }
     .main_cont h2 {
-        bottom: 250px;
+        top: 600px;
+
     }
+.main_block_1 {
+    margin-top: 400px;
+
+}
 
 }
