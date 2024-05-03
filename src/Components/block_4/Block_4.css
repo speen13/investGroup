@@ -140,6 +140,9 @@
         margin-top: 780px;
     }
     .invest_1,.invest_2 {
-        width: 600px;
+        width: 400px;
+    }
+    .calc_invest {
+        width: 300px;
     }
 }

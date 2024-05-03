@@ -1,11 +1,12 @@
 import React from 'react';
 import './Block_5.css'
 import Footer from "../Footer/Footer.jsx";
+import Footer2 from "../Footer/Footer2.jsx";
 
 const Block_5 = () => {
   return (
     <div className={'end'}>
-<Footer/>
+<Footer2/>
       <div className={'stop'}>
         <div className={'stop_text'}>
           <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні</p>

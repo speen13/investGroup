@@ -118,7 +118,7 @@ position: relative;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
     .mob_menu,.mob_menu_1 {
         display: none;
     }
