@@ -88,14 +88,22 @@ background-color: #093922;
     }
 .main_block_1 {
     flex-direction: column;
-
+    margin-right: auto;
     margin-top: 400px;
     height: 626px;
+    margin-left: 15px;
+    width: 467px;
+
 
 }
 .main_block_2 {
+    margin-top: 20px;
+    margin-right: auto;
     flex-direction: column;
     height: 626px;
+    margin-left: 15px;
+    width: 467px;
+
 }
 
     .main_block_img img {
