@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import  {useState} from 'react';
 import './Footer.css'
 import logo from '../../../public/Logo 3.svg'
 import Button from "../button/Button.jsx";
@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <div className={'footer'}>
-      {/*<img className={'logo'} src={logo}/>*/}
+      <img className={'logo'} src={logo}/>
       <div className={'links'}>
         <a>Про нас</a>
         <a>Переваги</a>
