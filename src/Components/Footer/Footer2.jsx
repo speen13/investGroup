@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import logo from "../../../public/Logo 3.png";
+import logo from "../../../public/Logo 3.svg";
 import Button from "../button/Button.jsx";
 import Youtube from "../Youtube.jsx";
 import Facebook from "../Facebook.jsx";

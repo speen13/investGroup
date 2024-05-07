@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Footer.css'
-import logo from '../../../public/Logo 3.png'
+import logo from '../../../public/Logo 3.svg'
 import Button from "../button/Button.jsx";
 const Footer = () => {
   const [iks, setIks] = useState(true)
