@@ -50,3 +50,9 @@ border: 1px solid white;
 .cart_img:first-child {
     margin-left: 6%;
 }
+
+@media (max-width: 768px) {
+    .money_click,.money {
+        display: none;
+    }
+}

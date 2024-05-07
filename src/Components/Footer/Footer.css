@@ -99,7 +99,7 @@ position: relative;
     border-radius: 10px;
 }
 
-.youtube,.facebook {
+.youtube,.facebook,.watsapp {
    margin-top: 15px;
     margin-left: 10px;
     transition: all 0.5s ease-in;
@@ -114,6 +114,10 @@ position: relative;
 .facebook:hover {
     transform: rotateX(360deg);
     fill: blue;
+}
+.watsapp:hover {
+    transform: rotateY(360deg);
+    fill: green;
 }
 
 .mob_menu a {

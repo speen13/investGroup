@@ -66,9 +66,14 @@
 @media (max-width: 768px) {
     .cont_form {
 
-       top: 150px;
-
-
+       top: 40px;
+        width: 470px;
+        height: 630px;
+        margin: 10px;
     }
+    .cont_form input {
+        width: 85%;
+    }
+
 
 }

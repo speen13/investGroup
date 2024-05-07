@@ -87,8 +87,22 @@ background-color: #093922;
 
     }
 .main_block_1 {
+    flex-direction: column;
+
     margin-top: 400px;
+    height: 626px;
 
 }
+.main_block_2 {
+    flex-direction: column;
+    height: 626px;
+}
+
+    .main_block_img img {
+        margin-top: 25px;
+         width: 400px;
+         height: 400px;
+
+    }
 
 }
