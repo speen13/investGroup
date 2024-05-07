@@ -10,7 +10,7 @@ const Footer2 = () => {
 
   return (
     <div className={'footer'}>
-      <img className={'logo'} src={logo}/>
+      {/*<img className={'logo'} src={logo}/>*/}
       <div className={'links'}>
         <a>Про нас</a>
         <a>Переваги</a>
