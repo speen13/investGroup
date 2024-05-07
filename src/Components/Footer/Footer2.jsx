@@ -2,6 +2,8 @@ import React from 'react';
 import './Footer.css'
 import logo from "../../../public/Logo 3.png";
 import Button from "../button/Button.jsx";
+import Youtube from "../Youtube.jsx";
+import Facebook from "../Facebook.jsx";
 
 const Footer2 = () => {
 
@@ -15,6 +17,9 @@ const Footer2 = () => {
         <Button text={'Розрахувати прибуток'}/>
 
       </div>
+
+      <Youtube className={'youtube'}/>
+      <Facebook className={'facebook'}/>
 
 
     </div>

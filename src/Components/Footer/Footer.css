@@ -99,6 +99,23 @@ position: relative;
     border-radius: 10px;
 }
 
+.youtube,.facebook {
+   margin-top: 15px;
+    margin-left: 10px;
+    transition: all 0.5s ease-in;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.youtube:hover {
+    transform: rotate(360deg);
+    fill: red;
+}
+.facebook:hover {
+    transform: rotateX(360deg);
+    fill: blue;
+}
+
 .mob_menu a {
     padding-top: 50px;
     font-size: 1.5rem;
